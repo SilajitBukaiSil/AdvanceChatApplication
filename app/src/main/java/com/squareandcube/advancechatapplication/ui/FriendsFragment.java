@@ -67,6 +67,8 @@ public class FriendsFragment extends Fragment implements SwipeRefreshLayout.OnRe
     private CountDownTimer detectFriendOnline;
     public static int ACTION_START_CHAT = 1;
 
+    // Test
+
     public static final String ACTION_DELETE_FRIEND = "com.android.rivchat.DELETE_FRIEND";
 
     
@@ -460,6 +462,7 @@ class ListFriendsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         final String idRoom = listFriend.getListFriend().get(position).idRoom;
         final String avata = listFriend.getListFriend().get(position).avata;
         ((ItemFriendViewHolder) holder).txtName.setText(name);
+
 
         ((View) ((ItemFriendViewHolder) holder).txtName.getParent().getParent().getParent())
                 .setOnClickListener(new View.OnClickListener() {

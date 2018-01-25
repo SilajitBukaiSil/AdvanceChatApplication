@@ -69,7 +69,7 @@ public class FriendsFragment extends Fragment implements SwipeRefreshLayout.OnRe
 
     public static final String ACTION_DELETE_FRIEND = "com.android.rivchat.DELETE_FRIEND";
 
-    // Testing
+    
 
     private BroadcastReceiver deleteFriendReceiver;
 
